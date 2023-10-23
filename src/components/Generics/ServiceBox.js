@@ -1,12 +1,12 @@
 import React from 'react'
 
-const ServiceBox = () => {
+const ServiceBox = ({title, description, url}) => {
   return (
 
-    <a className="grid-item" href="services.html">
+    <a className="grid-item" href={url}>
         <div className="box-line">_______</div>
-        <h3>Business Advice</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.</p>
+        <h3>{title}</h3>
+        <p>{description}</p>
         <div className="btn-arw-r"><i className="fa-light fa-arrow-right"></i></div>
     </a>
   )
