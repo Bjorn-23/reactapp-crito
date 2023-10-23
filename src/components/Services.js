@@ -1,9 +1,8 @@
 import React from 'react'
 import Button from './Generics/Button'
 import ServiceBox from './Generics/ServiceBox'
-
-import img_ServiceLines from '../assets/img/services/white-squiggly-lines-services.svg'
 import SectionTitle from './Generics/SectionTitle'
+import img_ServiceLines from '../assets/img/services/white-squiggly-lines-services.svg'
 
 const Services = () => {
     return (
