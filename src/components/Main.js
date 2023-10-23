@@ -1,11 +1,14 @@
 import React from 'react'
-import Services from './components/Services';
-
+import Services from './Services';
+import Features from './Features';
 
 const Main = () => {
   return (
-        
+
+    <>
+    <Features />
     <Services />
+    </>
   )
 }
 
