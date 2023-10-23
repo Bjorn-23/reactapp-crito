@@ -1,9 +1,9 @@
 import React from 'react'
 
-const FeaturesBox = ({CName, img, title, text}) => {
+const FeaturesBox = ({CName, img, title, text, alt}) => {
   return (
     <div className={CName} >
-        <img className="features-img" src={img} alt="stylized icon of a handshake" />
+        <img className="features-img" src={img} alt={alt} />
         <h3 className="features-h3">{title}</h3>
         <p className="features-text">{text}</p>
         <div className="star1"><i className="fa-duotone fa-plus"></i></div>
