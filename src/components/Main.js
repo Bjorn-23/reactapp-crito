@@ -4,6 +4,7 @@ import Features from './Features';
 import AboutCompany from './AboutCompany';
 import Services from './Services';
 import WhyChooseUs from './WhyChooseUs';
+import Projects from './Projects';
 
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
     <AboutCompany />
     <Services />
     <WhyChooseUs />
+    <Projects />
 
     </>
   )
