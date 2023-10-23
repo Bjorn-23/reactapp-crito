@@ -3,6 +3,7 @@ import Button from './Generics/Button'
 import ServiceBox from './Generics/ServiceBox'
 
 import img_ServiceLines from '../assets/img/services/white-squiggly-lines-services.svg'
+import SectionTitle from './Generics/SectionTitle'
 
 const Services = () => {
     return (
@@ -16,8 +17,7 @@ const Services = () => {
 
                 <div className="c-top">
                     <div className="top-wrapper">
-                        <p className="orange-txt">Our Services</p>
-                        <h2 className="services-title">We Provide The Best Service For Consulting</h2>
+                        <SectionTitle title="We Provide The Best Service For Consulting" orangeText="Our Services" />
                     </div>
 
                     <div className="spacer-rgt"></div>
@@ -30,7 +30,7 @@ const Services = () => {
                         <ServiceBox title="Startup Business" url="/Services" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." />
                         <ServiceBox title="Financial Advice" url="/Services" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." />
                         <ServiceBox title="Risk Management" url="/Services" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." />
-
+                        
                     </div>
 
                     <div className="c-btm">
