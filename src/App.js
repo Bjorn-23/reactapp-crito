@@ -1,10 +1,10 @@
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
-    <div>
-      <h1>Detta är en huvudrubrik</h1>
-      <p>Detta är en paragraf</p>
+    <div className="wrapper">
+      <Header />
     </div>
   );
 }
